@@ -5,7 +5,7 @@ Installation
 
 - run the bash script virustotal_masscan.sh
 - Sign into Virustotal and get the API_KEY and paste it in the script between the double quotes.(virustotal.VirusTotal("------------"))
-_______________________________________________________________________________________________________________________________
+_____________________________________________________________________________________________________________________________
 
 Execution
 
