@@ -7,7 +7,6 @@
 
 
 import os
-import hashlib
 import virustotal 
 
 virus = virustotal.VirusTotal("paste your api_key here") # <--------paste your api_key 
