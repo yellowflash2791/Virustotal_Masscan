@@ -8,9 +8,15 @@ run the bash script virustotal_masscan.sh
 Execution
 
 ./virustotal_masscan.py
+
 What do you want to upload on VirusTotal
+
 0: Scan the directory and subdirectories in it for malicious files
+
 1: Scan a file or hash
+
 Enter the option: 0
+
+enter the path: /root/Desktop/Exploit
 
 
