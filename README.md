@@ -4,7 +4,7 @@ Virustotal is a great source to find the reputation of suspicious files.We gener
 Installation 
 
 - run the bash script virustotal_masscan.sh
-- Sign into Virustotal and get the API_KEY and paste it in the script between the double quotes.(virustotal.VirusTotal("------------"))
+- Sign into Virustotal,on logging in you will get an API_KEY,paste it in the script between the double quotes i.e virus = virustotal.VirusTotal("------------"))
 _____________________________________________________________________________________________________________________________
 
 Execution
