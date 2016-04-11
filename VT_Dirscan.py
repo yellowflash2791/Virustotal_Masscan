@@ -9,7 +9,7 @@
 import os
 import virustotal 
 
-virus = virustotal.VirusTotal("09793033662fcea7eae15c6fd74f7e7034cbc6d4fdfc56eca7bf5486807a740f") # <--------paste your api_key 
+virus = virustotal.VirusTotal("Paste your API-KEY here") # <--------paste your api_key 
 
 def directory():
 
