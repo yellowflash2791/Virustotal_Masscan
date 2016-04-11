@@ -9,7 +9,7 @@
 import os
 import virustotal 
 
-virus = virustotal.VirusTotal("paste your api_key here") # <--------paste your api_key 
+virus = virustotal.VirusTotal("09793033662fcea7eae15c6fd74f7e7034cbc6d4fdfc56eca7bf5486807a740f") # <--------paste your api_key 
 
 def directory():
 
@@ -22,29 +22,29 @@ def directory():
         file_path=os.path.join(root,filename) 
      
     
-       analysis=virus.scan(file_path)     
+        analysis=virus.scan(file_path)     
 
-       analysis.join()
+        analysis.join()
 
-       assert analysis.done == True    
+        assert analysis.done == True    
      
-       print "Report for %s" %(filename)
-       print "- Resource's UID:", analysis.id
-       print "- Scan's UID:", analysis.scan_id
-       print "- Permalink:", analysis.permalink
-       print "- Resource's SHA1:", analysis.sha1
-       print "- Resource's SHA256:", analysis.sha256
-       print "- Resource's MD5:", analysis.md5
-       print "- Resource's status:", analysis.status
-       print "- Antivirus' total:", analysis.total
-       print "- Antivirus's positives:", analysis.positives
-       for antivirus, malware in analysis:
-          if malware is not None:
-           print
-           print "Antivirus:", antivirus[0]
-           print "Antivirus' version:", antivirus[1]
-           print "Antivirus' update:", antivirus[2]
-           print "Malware:", malware             
+        print "Report for %s" %(filename)
+        print "- Resource's UID:", analysis.id
+        print "- Scan's UID:", analysis.scan_id
+        print "- Permalink:", analysis.permalink
+        print "- Resource's SHA1:", analysis.sha1
+        print "- Resource's SHA256:", analysis.sha256
+        print "- Resource's MD5:", analysis.md5
+        print "- Resource's status:", analysis.status
+        print "- Antivirus' total:", analysis.total
+        print "- Antivirus's positives:", analysis.positives
+        for antivirus, malware in analysis:
+           if malware is not None:
+            print
+            print "Antivirus:", antivirus[0]
+            print "Antivirus' version:", antivirus[1]
+            print "Antivirus' update:", antivirus[2]
+            print "Malware:", malware             
  
 def others():
   
