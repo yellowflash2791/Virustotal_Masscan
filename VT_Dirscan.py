@@ -2,7 +2,7 @@
 # This is a simple python script writtern to find the reputation of files on virustotal,this script will help us in scanning all the files
 # in a directory and its subdirectories,we can also scan single files and hashes
 # Sign into VirusTotal,you will be provided with an api_key,paste the api_key between the double quotes in the field mentioned below and you are good to go
-# this script is a property of yellow_flash 
+# this script is a property of Arnold Anthony  
 
 
 
