@@ -1,5 +1,5 @@
 # VT_Dirscan
-Virustotal is a great source to find the reputation of suspicious files.We generally upload a single file and check for its reputation,Assume if we have a Directory having many subdirectories and files,it would be difficult to upload files one by one and check for its reputation.Hence to overcome this issue i have writtern a small python script that will give the reputation of all the files in a directory.We can also upload a single file or a hash
+Virustotal is a great source to find the reputation of suspicious files.We generally upload a single file and check for its reputation,Assume if we have a Directory having many subdirectories and files,it would be difficult to upload files one by one and check for its reputation.Hence to overcome this issue i have writtern a small python script that will give the reputation of all the files in a directory.We can also upload a single file or a hash.This script is cross platform it can run on both windows and linux.
 
 Installation 
 
