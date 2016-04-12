@@ -3,7 +3,7 @@ Virustotal is a great source to find the reputation of suspicious files.We gener
 
 Installation 
 
-- run the bash script VT_Dirscan.sh
+- Download the files i.e virustotal.pyc and VT_Dirscan.py to a folder or just download the zip file virustotal_masscan.zip
 - Sign into Virustotal,on logging in you will get an API_KEY,paste it in the script i.e virus = virustotal.VirusTotal("------------"))
 _____________________________________________________________________________________________________________________________
 
