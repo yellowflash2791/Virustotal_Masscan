@@ -11,7 +11,7 @@ Execution
 
 1)
 
-./VT_Dirscan.py
+python VT_Dirscan.py
 
 What do you want to upload on VirusTotal
 
@@ -25,7 +25,7 @@ enter the path: /root/Desktop/Exploit
 
 2)
 
-./VT_Dirscan.py
+python VT_Dirscan.py
 
 What do you want to upload on VirusTotal
 
