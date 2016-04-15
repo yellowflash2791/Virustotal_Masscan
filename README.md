@@ -12,6 +12,7 @@ Execution:
 1)
 
 python VT_Dirscan.py -h
+
 usage: VT_Dirscan.py [-h] [-d DIRECTORY] [-f FILE]
 
 Virustotal is a great source to find the reputation of suspicious files.We
