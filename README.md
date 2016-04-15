@@ -25,8 +25,10 @@ script is cross platform it can run on both windows and linux.
 
 optional arguments:
   -h, --help            show this help message and exit
+
   -d DIRECTORY, --directory DIRECTORY
                         Scan files in a directory
+
   -f FILE, --file FILE  Scan a file or a hash
   
 2) python VT_Dirscan.py -d /root/Desktop/Exploits/
